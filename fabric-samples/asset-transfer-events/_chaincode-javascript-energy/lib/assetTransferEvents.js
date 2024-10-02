@@ -413,7 +413,7 @@ async function VerifyGroth16(ctx, inputs) {
 
 async function VerifyFflonk(ctx, inputs) {
 	const inputsJSON = JSON.parse(inputs);
-	const result = await snarkjs.fflonk.verify(vkeysG16, inputsJSON, proofG16);
+	const result = await snarkjs.fflonk.verify(vkeysFflonk, inputsJSON, proofFflonk);
 	if(!result){
 		throw new Error('UNAUTHORIZED');
 	}

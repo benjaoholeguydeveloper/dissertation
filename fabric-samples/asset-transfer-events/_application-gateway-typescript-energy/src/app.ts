@@ -204,7 +204,7 @@ async function updateAsset(contract: Contract): Promise<void> {
 //     try {
         
 //         const data = await fetch(
-//             'http://dataservice.accuweather.com/forecasts/v1/minute?q=-36.8485%2C174.7633&apikey=CWC20d6lvG7IqIsz3OWRGwAtq1t004fB',
+//             'http://dataservice.accuweather.com/forecasts/v1/minute?q=-36.8485%2C174.7633&apikey=',
 //             {
 //                 method: 'GET'
 //             })

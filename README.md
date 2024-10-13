@@ -39,6 +39,10 @@ npm run verify Multiplier3_js/verification_key.json publicSignals.json proof.jso
 cd groth_16
 ./run_groth_16.sh
 
+## compile the circuit and generate test proof for Fflonk protocol
+cd fflonk
+./run.sh
+
 ## ZKP with SNARKJS. Create the proof, verification keys and public signals.
 
 ### install snarkjs

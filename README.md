@@ -3,6 +3,14 @@
 ## compile the circuit and generate test proof for Plonk protocol
 ./run.sh
 
+## compile the circuit and generate test proof for Groth16 protocol
+cd groth_16
+./run_groth_16.sh
+
+## compile the circuit and generate test proof for Fflonk protocol
+cd fflonk
+./run.sh
+
 ## ZKP with SNARKJS. Create the proof, verification keys and public signals.
 
 ### install snarkjs
@@ -34,14 +42,6 @@ npm run prove  Multiplier3_js/Multiplier3.wasm Multiplier3_js/Multiplier3_final.
 
 ### verify proof with nodejs
 npm run verify Multiplier3_js/verification_key.json publicSignals.json proof.json
-
-## compile the circuit and generate test proof for Groth16 protocol
-cd groth_16
-./run_groth_16.sh
-
-## compile the circuit and generate test proof for Fflonk protocol
-cd fflonk
-./run.sh
 
 ## ZKP with SNARKJS. Create the proof, verification keys and public signals.
 

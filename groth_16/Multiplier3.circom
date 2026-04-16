@@ -27,3 +27,4 @@ template Multiplier2 () {
 
 component main {public [expectedCube]} = Multiplier2();
 
+

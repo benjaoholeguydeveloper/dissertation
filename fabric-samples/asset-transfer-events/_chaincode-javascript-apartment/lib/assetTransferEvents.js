@@ -473,3 +473,4 @@ class AssetTransferEvents extends Contract {
 }
 
 module.exports = AssetTransferEvents;
+

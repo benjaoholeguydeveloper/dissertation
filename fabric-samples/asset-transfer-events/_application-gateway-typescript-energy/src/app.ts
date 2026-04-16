@@ -244,3 +244,4 @@ async function replayChaincodeEvents(network: Network, contract:Contract, startB
         events.close();
     }
 }
+
